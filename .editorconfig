@@ -10,3 +10,6 @@ insert_final_newline = true
 [*.db]
 end_of_line = lf
 insert_final_newline = false
+
+[*.{dll,conf}]
+end_of_line = lf
