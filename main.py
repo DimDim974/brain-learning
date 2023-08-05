@@ -10,7 +10,10 @@
 from tkinter import *
 from tkinter.filedialog import *
 # Pour initialiser tkinter, nous devons créer un widget root Tk
+import Fonction 
+
 root = Tk()
+FCT = Fonction()
 
 # frame 1
 Frame1 = Frame(root, borderwidth=2, relief=GROOVE)
