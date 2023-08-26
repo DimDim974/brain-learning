@@ -1,7 +1,14 @@
+import sys
 from cx_Freeze import setup, Executable
-base = None
-#Remplacer "monprogramme.py" par le nom du script qui lance votre programme
-executables = [Executable("main.py", base=base)]
+
+# base="Win32GUI" should be used only for Windows GUI app
+base = "Win32GUI" if sys.platform == "win32" else None
+
+setup(executables = [Executable("main.py", base=base)])
+
+
+
+
 #Renseignez ici la liste complète des packages utilisés par votre application
 packages = ["idna","tkinter","hashlib","os","sqlite3"]#
 options = {
@@ -15,5 +22,5 @@ setup(
     options = options,
     version = "1.0",
     description = 'Brain Learning',
-    executables = executables
+    executables = [Executable("main.py", base=base)]
 )
