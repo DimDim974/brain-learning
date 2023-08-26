@@ -1,9 +1,15 @@
 <<<<<<< .mine
 /Build
-/exe/readme_Setup py.txt
-/Exe/Setup_Other.py
+<<<<<<< .mine
+/Executable/Setup_Other.py
+/Executable/readme_Setup py.txt
+
+
+
+=======
 =======
 /Build
 /exe/readme_Setup py.txt
 
+>>>>>>> .theirs
 >>>>>>> .theirs
