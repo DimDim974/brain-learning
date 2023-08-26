@@ -14,6 +14,6 @@ setup(
     name = "Brain_Learning",
     options = options,
     version = "1.0",
-    description = 'Nutrition',
+    description = 'Brain Learning',
     executables = executables
 )

@@ -37,4 +37,9 @@ exe.win-amd64-3.11
 /Build
 /exe/readme_Setup py.txt
 /Exe/Setup_Other.py
+<<<<<<< HEAD
 >>>>>>> 9a78d9e ([TECH] Build)
+=======
+/Executable/Setup_Other.py
+/Executable/readme_Setup py.txt
+>>>>>>> 301db9a ([TECH])
