@@ -6,13 +6,10 @@ base = "Win32GUI" if sys.platform == "win32" else None
 
 setup(executables = [Executable("main.py", base=base)])
 
-
-
-
 #Renseignez ici la liste complète des packages utilisés par votre application
 packages = ["idna","tkinter","hashlib","os","sqlite3"]#
 options = {
-    'build_exe': {    
+    'build_exe': {
         'packages':packages,
     },
 }
