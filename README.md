@@ -13,9 +13,13 @@ Here are some basic commands for installing the compiler:
 ```
 pip install cx_freeze
 <<<<<<< HEAD
+<<<<<<< HEAD
 python C:\Users\%USER%\Projet\brain-learning\Cx_freeze\Setup.py build
 =======
 >>>>>>> 131f37e ([TECH] Mise à jour du README.md)
+=======
+python C:\Users\%USER%\Projet\brain-learning\Cx_freeze\Setup.py build
+>>>>>>> eaaf975 ([TECH] Mise à jour du README.md)
 ```
 or
 ```
@@ -27,10 +31,15 @@ pip install pyinstaller
 > In progress...
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 =======
 >>>>>>> 131f37e ([TECH] Mise à jour du README.md)
+=======
+
+
+>>>>>>> eaaf975 ([TECH] Mise à jour du README.md)
 ## Contact
 
 Kévin and Dimitri, made in France.
