@@ -6,6 +6,7 @@ base = "Win32GUI" if sys.platform == "win32" else None
 
 setup(executables = [Executable("main.py", base=base)])
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 #Renseignez ici la liste complète des packages utilisés par votre application
@@ -24,3 +25,5 @@ setup(
     executables = [Executable("main.py", base=base)]
 )
 >>>>>>> 95c6f61 ([TECH] Mise à jour du répertoire)
+=======
+>>>>>>> ccb8d61 ([TECH] Mise à jour de la config de CZ FREEZE.)
