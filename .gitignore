@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< .mine
 exe.win-amd64-3.11
@@ -43,3 +44,6 @@ exe.win-amd64-3.11
 /Executable/Setup_Other.py
 /Executable/readme_Setup py.txt
 >>>>>>> 301db9a ([TECH])
+=======
+exe.win-amd64-3.11
+>>>>>>> 6b0ed5c ([TECH] Mise à jour du répertoire Build + retrait des exclusion gitignore.)
