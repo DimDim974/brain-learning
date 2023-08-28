@@ -12,6 +12,7 @@ The compilers can be used on Windows, Linux and MacOS.
 Here are some basic commands for installing the compiler:
 ```
 pip install cx_freeze
+python C:\Users\%USER%\Projet\brain-learning\Cx_freeze\Setup.py build
 ```
 or
 ```
@@ -21,6 +22,8 @@ pip install pyinstaller
 ** For Linux **
 > [!WARNING]
 > In progress...
+
+
 
 ## Contact
 
