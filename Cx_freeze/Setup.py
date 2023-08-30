@@ -3,6 +3,7 @@ from cx_Freeze import setup, Executable
 
 # base="Win32GUI" should be used only for Windows GUI app
 base = "Win32GUI" if sys.platform == "win32" else None
+<<<<<<< HEAD
 
 setup(executables = [Executable("main.py", base=base)])
 <<<<<<< HEAD
@@ -27,3 +28,6 @@ setup(
 >>>>>>> 95c6f61 ([TECH] Mise à jour du répertoire)
 =======
 >>>>>>> ccb8d61 ([TECH] Mise à jour de la config de CZ FREEZE.)
+=======
+setup(executables = [Executable("main.py", base=base,icon="icon.ico")])
+>>>>>>> debe182 ([EVO] Détection de l'OS Windows + Gestion des erreurs)
