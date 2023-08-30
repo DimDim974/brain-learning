@@ -6,11 +6,12 @@
 #
 ######################################
 ###################################################
+
 #Importation de la librairie
 from tkinter import *
 from tkinter.filedialog import *
 # Pour initialiser tkinter, nous devons créer un widget root Tk
-# import fonction 
+# import fonction
 
 root = Tk()
 # FCT = fonction()
@@ -46,7 +47,7 @@ menufichier.add_command(label="Jeux")
 menufichier.add_command(label="Favoris")
 menufichier.add_separator()
 menufichier.add_command(label="Préférences")
-menufichier.add_command(label="Quitter", command=root.destroy) 
+menufichier.add_command(label="Quitter", command=root.destroy)
 
 # Menu Edition
 menuedition = Menu(menubar,tearoff=0)
