@@ -12,14 +12,7 @@ The compilers can be used on Windows, Linux and MacOS.
 Here are some basic commands for installing the compiler:
 ```
 pip install cx_freeze
-<<<<<<< HEAD
-<<<<<<< HEAD
 python C:\Users\%USER%\Projet\brain-learning\Cx_freeze\Setup.py build
-=======
->>>>>>> 131f37e ([TECH] Mise à jour du README.md)
-=======
-python C:\Users\%USER%\Projet\brain-learning\Cx_freeze\Setup.py build
->>>>>>> eaaf975 ([TECH] Mise à jour du README.md)
 ```
 or
 ```
@@ -29,18 +22,12 @@ pip install pyinstaller
 ** For Linux **
 > [!WARNING]
 > In progress...
+<!-- Install mingw64-gcc rpm package: -->
+<!-- # dnf --enablerepo=powertools install mingw64-gcc -->
+<!-- dnf install gcc -->
+<!-- dnf install git -->
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 131f37e ([TECH] Mise à jour du README.md)
-=======
-
-
->>>>>>> eaaf975 ([TECH] Mise à jour du README.md)
 ## Contact
 
-Kévin and Dimitri, made in France.
+Kévin and Dimitri
 

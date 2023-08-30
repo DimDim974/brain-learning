@@ -12,6 +12,7 @@ import platform
 OS=platform.system()
 
 if OS == str("Windows"):
+
     #Importation de la librairie
     import tkinter
     from tkinter import *
@@ -38,7 +39,7 @@ if OS == str("Windows"):
     root.title("Brain Learning")
     # root.iconbitmap('E:\\Project\\Nutrition\\Nutri.ico')
     # root.iconbitmap('E:\\Project\\Nutrition\\nutrition.ico')
-    root.iconbitmap("C:\\Users\\dimitri.sautron\\Projet\\brain-learning\\icon.ico")
+    # root.iconbitmap("C:\\Users\\dimitri.sautron\\Projet\\brain-learning\\icon.ico")
     # width x height
     root.geometry("700x700")
 
@@ -46,14 +47,14 @@ if OS == str("Windows"):
     menubar = Menu(root)
     root.config(menu=menubar)
 
-# Menu Fichier
-menufichier = Menu(menubar,tearoff=0)
-menubar.add_cascade(label="Fichier", menu=menufichier)
-menufichier.add_command(label="Jeux")
-menufichier.add_command(label="Favoris")
-menufichier.add_separator()
-menufichier.add_command(label="Préférences")
-menufichier.add_command(label="Quitter", command=root.destroy)
+    # Menu Fichier
+    menufichier = Menu(menubar,tearoff=0)
+    menubar.add_cascade(label="Fichier", menu=menufichier)
+    menufichier.add_command(label="Jeux")
+    menufichier.add_command(label="Favoris")
+    menufichier.add_separator()
+    menufichier.add_command(label="Préférences")
+    menufichier.add_command(label="Quitter", command=root.destroy)
     # Menu Fichier
     menufichier = Menu(menubar,tearoff=0)
     menubar.add_cascade(label="Fichier", menu=menufichier)
@@ -105,9 +106,6 @@ menufichier.add_command(label="Quitter", command=root.destroy)
     menuhelp.add_command(label="Présentation")
     menuhelp.add_command(label="FAQ")
     menuhelp.add_command(label="Contact")
-
-#Fin de la configuration de l'interface.
-root.mainloop()
 
     #Fin de la configuration de l'interface.
     root.mainloop()
