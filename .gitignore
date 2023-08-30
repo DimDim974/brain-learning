@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< .mine
 exe.win-amd64-3.11
@@ -47,3 +48,6 @@ exe.win-amd64-3.11
 =======
 exe.win-amd64-3.11
 >>>>>>> 6b0ed5c ([TECH] Mise à jour du répertoire Build + retrait des exclusion gitignore.)
+=======
+/Build
+>>>>>>> c4e862f ([ANO] Correction du fichier gitignore)
