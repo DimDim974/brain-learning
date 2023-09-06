@@ -27,5 +27,5 @@ pip install pyinstaller
 
 ## Contact
 
-Kévin and Dimitri, made in France.
+Kévin and Dimitri.
 
